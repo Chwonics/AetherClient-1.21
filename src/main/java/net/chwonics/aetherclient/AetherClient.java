@@ -1,5 +1,6 @@
 package net.chwonics.aetherclient;
 
+import net.chwonics.aetherclient.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class AetherClient implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
