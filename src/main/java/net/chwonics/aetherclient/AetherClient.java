@@ -1,5 +1,6 @@
 package net.chwonics.aetherclient;
 
+import net.chwonics.aetherclient.block.ModBlocks;
 import net.chwonics.aetherclient.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class AetherClient implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

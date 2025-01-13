@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "AetherClient:block/rubber_block"
+    }
+  }
+}
